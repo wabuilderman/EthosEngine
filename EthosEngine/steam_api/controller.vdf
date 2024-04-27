@@ -1,0 +1,40 @@
+"In Game Actions"
+{
+	"actions"
+	{
+		"FPSControls"
+		{
+			"title"					"#Set_FPSControls"
+			"StickPadGyro"
+			{
+				"Move"
+				{
+					"title"			"#Action_Move"
+					"input_mode"	"joystick_move"
+				}
+				"Camera"
+				{
+					"title"			"#Action_Camera"
+					"input_mode"	"absolute_mouse"
+				}
+			}
+			"AnalogTrigger"
+			{
+			}
+			"Button"
+			{
+				"Exit"				"#Action_Exit"
+			}
+		}
+	}
+	"localization"
+	{
+		"english"
+		{
+			"Set_FPSControls"		"First Person Controls"
+			"Action_Move"			"Move"
+			"Action_Camera"			"Camera"
+			"Action_Exit"			"Exit"
+		}
+	}
+}

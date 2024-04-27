@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v141:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Debug Static|Win32|C:\Users\Owner\Documents\Visual Studio 2017\Libraries\freetype-2.10.0\builds\windows\vc2010\|

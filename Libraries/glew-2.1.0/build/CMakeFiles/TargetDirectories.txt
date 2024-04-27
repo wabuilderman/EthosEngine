@@ -1,0 +1,8 @@
+C:/Users/Owner/Downloads/glew-2.1.0/build/CMakeFiles/glewinfo.dir
+C:/Users/Owner/Downloads/glew-2.1.0/build/CMakeFiles/glew.dir
+C:/Users/Owner/Downloads/glew-2.1.0/build/CMakeFiles/glew_s.dir
+C:/Users/Owner/Downloads/glew-2.1.0/build/CMakeFiles/uninstall.dir
+C:/Users/Owner/Downloads/glew-2.1.0/build/CMakeFiles/visualinfo.dir
+C:/Users/Owner/Downloads/glew-2.1.0/build/CMakeFiles/INSTALL.dir
+C:/Users/Owner/Downloads/glew-2.1.0/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Owner/Downloads/glew-2.1.0/build/CMakeFiles/ZERO_CHECK.dir

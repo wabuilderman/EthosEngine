@@ -1,0 +1,45 @@
+Halo + Player-Choice
+
+https://www.youtube.com/watch?v=yftGPkZxnKk :
+"How do you handle someone walking up to the character which starts the main quest, and shooting them in the head?"
+For a weapon-sandbox game, shooting people is a core mechanic. As such, it should always be an option to the player
+to just shoot and kill any character they meet.
+
+
+
+================================= World ============================================
+Races:
+Cat-people - Space pirates
+Snake-people - stealth (assassins + snipers); theme - neon crystals in the dark
+wolf-people - Fairly generic 'good-guys', the primary civilization in the region.
+
+
+The wolf-people and snake-people are fighting a vicious war, that has been ongoing for almost a year. Both sides are exhausted.
+
+
+
+BBEG is portrayed as someone who is idealisitic, they go out of their way to save lives and treat people humanely.
+A situation quickly develops - BBEG must choose between saving a few, personable lives, or saving millions.
+They wholehearted believes that 'things will work out in the end. You need to do what's right in the here and now.'
+However, as the player is tasked with preventing the large catastrophe, they are put in direct conflict with the BBEG.
+In the final battle, the catastrophe unfolds, and the BBEG realizes his niavity, collapsing in grief.
+
+-------------------------------------------------------------------------------------
+=============================== Gameplay ============================================
+Scope Limitations:
+This is not an open-world game. There should be a small number of levels, with a start and an end. All levels are
+visited in order, regardless of player choice.
+
+How is narrative delivered?
+in-world, non-cutscene sequences. Dialogue should be kept mindfully short (though not so short as to be lacking in depth)
+Dialogue primarily occurs in significant lulls in combat (i.e. just after getting to an outpost or something). Dialogue choices depend on optional criteria in previous combat.
+(for instance, saving all civilians, or killing all enemies, or killing *no* enemies. Criteria unmarked, but should be vaguely indicated by dialogue.
+For instance "All this senseless bloodshed" might indicate a 'no-kill' criteria for an extra dialouge option)
+
+
+Specific elements:
+	Enemy AI
+	Companion AI
+	Friendly AI
+	Gunplay
+	Dialogue Menu
