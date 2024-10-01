@@ -7,7 +7,7 @@ run: $(shaderSPVs)
 
 .SECONDEXPANSION:
 %.spv : src/$$*
-	C:/VulkanSDK/1.2.135.0/Bin/glslc.exe src/$* -o $@
+	./glslc.exe src/$* -o $@
 
 clean:
 	@del /f "./*.spv"
