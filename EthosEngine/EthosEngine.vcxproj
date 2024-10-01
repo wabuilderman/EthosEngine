@@ -382,7 +382,8 @@
     <PreLinkEvent>
       <Command>call "shaders/compile.bat"
 copy /Y "$(SolutionDir)Libraries\steam_api\bin\steam_api.dll" "$(TargetDir)steam_api.dll"
-copy /Y "$(SolutionDir)Libraries\steam_api\bin\win64\steam_api64.dll" "$(TargetDir)steam_api64.dll"</Command>
+copy /Y "$(SolutionDir)Libraries\steam_api\bin\win64\steam_api64.dll" "$(TargetDir)steam_api64.dll"
+copy /Y "$(SolutionDir)steam_appid.txt" "$(TargetDir)steam_appid.txt"</Command>
     </PreLinkEvent>
     <PreBuildEvent>
       <Command>
