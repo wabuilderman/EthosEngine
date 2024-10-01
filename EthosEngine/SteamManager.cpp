@@ -83,6 +83,7 @@ void SteamManager::init() {
 		DebugMessage("Fatal Error - SteamInput()->Init failed.");
 		exit(EXIT_FAILURE);
 	}
+	DebugMessage("Initialized Steam API");
 
 	Message<SteamManager::ControllerConnectEvent>::Connect(&onControllerConnect);
 }

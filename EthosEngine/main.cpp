@@ -114,6 +114,7 @@ void testGJK() {
 
 int main(int argc, char** argv) {
 	if (CoInitialize(0) != S_OK) {
+		printf("Critical Error  - CoInitialization Error");
 		exit(EXIT_FAILURE);
 	}
 	

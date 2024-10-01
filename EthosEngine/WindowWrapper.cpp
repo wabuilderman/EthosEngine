@@ -8,7 +8,11 @@ uint32_t Window::width = 800;
 uint32_t Window::height = 600;
 
 Window::Window() {
-	glfwInit();
+	printf("Initializing Window...");
+	if (!glfwInit()) {
+		printf("Critical Error - failed to intialize GLFW");
+	}
+
 	glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 	//glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
 	window = glfwCreateWindow(width, height, "Vulkan", nullptr, nullptr);
