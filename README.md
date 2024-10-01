@@ -1,4 +1,4 @@
-Project built for Visual Studio 2019; though verified to work for VS 2022.
+Project built for Visual Studio 2022.
 Instructions:
 1. Open the solution file.
 2. Build (either in debug or release)
