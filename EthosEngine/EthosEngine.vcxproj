@@ -369,14 +369,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\VulkanSDK\1.2.135.0\Include;$(SolutionDir)Libraries\freetype-2.10.0\include;$(SolutionDir)Libraries\glew-2.1.0\glew-2.1.0\include;$(SolutionDir)Libraries\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)Libraries\glm;$(SolutionDir)Libraries\stb;$(SolutionDir)Libraries\steam_api\include\public;$(SolutionDir)Libraries\tiny_obj_loader;$(SolutionDir)EthosEngine\bullet;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Libraries\VulkanSDK\Include;$(SolutionDir)Libraries\freetype-2.10.0\include;$(SolutionDir)Libraries\glew-2.1.0\glew-2.1.0\include;$(SolutionDir)Libraries\glfw-3.3.2.bin.WIN64\include;$(SolutionDir)Libraries\glm;$(SolutionDir)Libraries\stb;$(SolutionDir)Libraries\steam_api\include\public;$(SolutionDir)Libraries\tiny_obj_loader;$(SolutionDir)EthosEngine\bullet;$(SolutionDir)Librareis\CUDA\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;freetype.lib;steam_api64.lib;OpenCL.lib;cuda.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\lib\$(Platform);$(SolutionDir)Libraries\freetype-2.10.0\objs\$(Platform)\$(Configuration) Static\;$(SolutionDir)Libraries\glfw-3.3.2.bin.WIN64\lib-vc2019;C:\VulkanSDK\1.2.135.0\Lib;$(SolutionDir)Libraries\steam_api\bin\win64</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libraries\CUDA\$(Platform);$(SolutionDir)Libraries\freetype-2.10.0\objs\$(Platform)\$(Configuration) Static\;$(SolutionDir)Libraries\glfw-3.3.2.bin.WIN64\lib-vc2019;$(SolutionDir)Libraries\VulkanSDK;$(SolutionDir)Libraries\steam_api\bin\win64</AdditionalLibraryDirectories>
       <IgnoreSpecificDefaultLibraries>MSVCRT;LIBCMTD</IgnoreSpecificDefaultLibraries>
     </Link>
     <PreLinkEvent>
